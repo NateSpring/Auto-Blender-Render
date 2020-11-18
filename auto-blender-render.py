@@ -2,7 +2,6 @@ import os, os.path
 import subprocess
 
 
-root_path = r'\\filestore\\network storage\\Data\\ITD\\Team-ITD-Super-Site\\Images\\Product Renderings\\Render Queue\\'
 render_queue = r'\\filestore\\network storage\\Data\\ITD\\Team-ITD-Super-Site\\Images\\Product Renderings\\Render Queue\\'
 finished_renders = r'\\filestore\\network storage\\Data\\ITD\\Team-ITD-Super-Site\\Images\\Product Renderings\\Finished Renderings\\'
 
