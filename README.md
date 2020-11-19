@@ -1,6 +1,6 @@
-<h3 align="center"><b>AUTO BLENDER RENDER</b></h3>
+<h1 align="center"><b>AUTO BLENDER RENDER</b></h1>
 
-  <p align="center">Runs Blender as a background process to render .blend files in a directory via CLI</p>
+  <p align="center">Run Blender as a background process to render ".blend" files in a directory via CLI</p>
 
 
 
@@ -64,6 +64,7 @@ npm install
 
 Use this project to loop through a directory and render all .blend files to your selected output directory. 
 After cloning the repo, modify your input and output direcory paths, including the 'subprocess' location for your Blender installation.
+If a folder from the input directory already exists in the ouput directory, it will be skipped to avoid rendering twice.
 
 
 <!-- LICENSE -->
